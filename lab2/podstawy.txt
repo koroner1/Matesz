@@ -1,0 +1,48 @@
+a)System kontroli wersji - jest to oprogramowanie s³u¿¹ce do œledzenia zmian g³ównie w kodzie Ÿród³owym oraz 
+pomocy programistom w ³¹czeniu zmian dokonanych przez wiele osób w ró¿nych momentach.
+
+Systemy kontroli wersji dzielone s¹ wg :
+- architektury oprogramowania
+- licencji oprogramowania
+- sposobu oceny zamian
+
+
+b) Workflow (ang. work flow – przep³yw pracy) – w sensie szerszym, pojêcie okreœlaj¹ce sposób przep³ywu informacji 
+pomiêdzy rozmaitymi obiektami bior¹cymi udzia³ w jej przetwarzaniu. W wê¿szym sensie jest to okreœlenie sposobu przep³ywu 
+dokumentów pomiêdzy pracownikami wykonuj¹cymi pewien zalgorytmizowany zespó³ czynnoœci.
+Wed³ug koalicji WFMC (ang. WorkFlow Management Coalition) workflow to:
+"automatyzacja procesów biznesowych, w ca³oœci lub w czêœci, podczas której dokumenty, informacje lub zadania s¹ przekazywane 
+od jednego uczestnika do nastêpnego, wed³ug odpowiednich procedur zarz¹dczych".
+
+c) Systemy kontroli wersji dziel¹ siê na:
+- scentralizowane, oparte na architekturze klient-serwer (np. CVS, Subversion)
+- rozproszone, oparte na architekturze P2P (np. BitKeeper, Code Co-op, svk, Git).
+W tych pierwszych istnieje jedno centralne repozytorium, z którym wszyscy u¿ytkownicy systemu synchronizuj¹ 
+swoje zmiany, a te drugie pozwalaj¹ na prowadzenie równoprawnych, niezale¿nych ga³êzi, które mo¿na dowolnie 
+synchronizowaæ ze sob¹ nawzajem, np. poprzez e-mail (Code Co-op). Wybór odpowiedniego typu systemu kontroli 
+wersji zale¿y od potrzeb projektu.
+Sposób oceny zmian[edytuj]
+Niektóre systemy kontroli wersji operuj¹ na poziomie zmian zawartoœci plików, podczas gdy inne na zestawach 
+zmian (ang. changeset). U¿ycie mechanizmu zestawu zmian umo¿liwia œledzenie zmian, nawet gdy pliki w projekcie 
+zmieniaj¹ swoje nazwy i po³o¿enie w katalogach.
+Przyk³ady
+
+d) 
+init - na podstawie plików konfiguracyjnych lub skryptów startowych init uruchamia pozosta³e procesy systemowe, dla których 
+jest procesem macierzystym
+clone - utworzenie kopii zdalnego repozytorium na lokalnym dysku
+commit - To polecenie potwierdza wszystkie zmiany w plikach. Otwiera siê domyœlny edytor, w którym opisujesz zmiany, które wprowadzi³eœ.
+add - Tu mo¿na wybraæ szczegó³owo, które pliki maj¹ zostaæ dodane do repozytorium.
+Branch - Wyœwietla informacje o branch'ach dostêpnych w repo.
+checkout - Prze³¹cza na branch o nazwie mybranch
+status - Wyœwietla informacje o stanie repozytorium (zmienione pliki, aktualn¹ bran¿ê itp.)
+mv - pozwala przenosiæ pliki lub katalogi do innego miejsca ni¿ aktualne
+rm - o usuwania plików oraz katalogów z systemu plików.
+pull - pobranie plików ze zdalnego repozytorium i automatyczne wykonanie merge
+push - wys³anie zmian na zdalny serwer
+merage - s³u¿y do zast¹pienia pliku o tej samej nazwie.
+stash - pozwala na chwilowe “odsuniêcie” aktualnie wprowadzonych do projektu zmian bez koniecznoœci commitowania ich
+log - wyœwietla liste u¿ytkowników którzy odwiedzili dan¹ strone
+diff - porównuje dwa pliki i opisuje na standardowym wyjœciu czym siê ró¿ni plik2 od plik1
+reset- Wartoœæ zwracana jest w jednostkach, z których sk³ada siê plik
+
