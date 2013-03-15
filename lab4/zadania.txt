@@ -1,0 +1,10 @@
+2) komendy linii poleceñ:
+
+help                          - wyœwietlenie informacji o poleceniach (pomocy),
+dir                           - wyœwietlanie zawartoœci bie¿¹cego katalogu
+mkdir katalog                 - utworzenie katalogu o nazwie 'katalog'
+mk plik.txt                   - utworzenia pliku o nazwie 'plik.txt'
+notepad plik.txt              - wyœwietlenie zawartoœci pliku 'plik.txt'
+cd ..                         - przejœcie do katalogu nadrzêdnego
+cd lab4                       - przejœcie do katalogu 'lab4'
+rename plik.txt inny_plik.txt - zmianê nazwy pliku 'plik.txt' na 'inny_plik.txt
