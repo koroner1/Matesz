@@ -1,0 +1,8 @@
+Diagram sekwencji – definicja i zastosowanie
+
+Diagram sekwencji (ang. sequence diagram) s³u¿y do prezentowania interakcji pomiêdzy obiektami wraz z 
+uwzglêdnieniem w czasie komunikatów, jakie s¹ przesy³ane pomiêdzy nimi. Na diagramie sekwencji obiekty u³o¿one 
+s¹ wzd³u¿ osi X, a komunikaty przesy³ane s¹ wzd³u¿ osi Y. Zasadniczym zastosowaniem diagramów sekwencji jest 
+modelowanie zachowania systemu w kontekœcie scenariuszy przypadków u¿ycia. Diagramy sekwencji pozwalaj¹ uzyskaæ 
+odpowiedŸ na pytanie, jak w czasie przebiega komunikacja pomiêdzy obiektami. Dodatkowo diagramy sekwencji 
+stanowi¹ podstawow¹ technikê modelowania zachowania systemu, które sk³ada siê na realizacjê przypadku u¿ycia.
